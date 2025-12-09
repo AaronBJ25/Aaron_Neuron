@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.min.css">
+    <title>Aarón Neuron</title>
+</head>
+<body>
+    <header class="flex-row">
+        <img class="logo" src="media/logo-black.svg" alt="Neuron logo">
+        <nav>
+            <ul>
+                <li><a class="link link--light" href="index.html">Home</a></li>
+                <li><a class="link link--light" href="services.html">Services</a></li>
+                <li><a class="link link--light" href="about_us.html">About us</a></li>
+                <li><a class="link link--light" href="news.html">News</a></li>
+                <li><a class="link link--light" href="#prices">Price</a></li>
+                <li><a class="link link--dark" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <section class="banner-page section">
+            <div class="banner-page__background banner--contact">
+                <div class="banner-page__block container flex-column">
+                    <h1 class="text--lg">Contact</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="icons--gray section">
+            <div class="icons__block container flex-row">
+                <div class="icons__card flex-column">
+                    <div class="flex-row">
+                        <i class="ri-phone-line"></i>
+                        <h4 class="text--sm">Call us.</h4>
+                    </div>      
+                    <a class="body" href="tel:+5700846679225">+57 00 846 679 225</a>
+                </div>
+                <div class="icons__card flex-column">
+                    <div class="flex-row">
+                        <i class="ri-map-pin-3-line"></i>
+                        <h4 class="text--sm">Visit us.</h4>
+                    </div>    
+                    <p>C/ Fake Street, 5, 2B</p>
+                </div>
+                <div class="icons__card flex-column">
+                    <div class="flex-row">
+                        <i class="ri-mail-line"></i>
+                        <h4 class="text--sm">Write us.</h4>
+                    </div>       
+                    <a class="body" href="mailto:info@neuron.com">info@neuron.com</a>
+                </div>
+                <div class="icons__card flex-column">
+                    <div class="flex-row">
+                        <i class="ri-message-2-line"></i>
+                        <h4 class="text--sm">Chat with us.</h4>
+                    </div>
+                    <p>Click here to open the chat</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section">
+            <div class="contact__block container flex-row">
+                <div class="contact__map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24633.52524937637!2d-0.39350680421981227!3d39.487609295770135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f49cc253387%3A0xa7be35bdeeb341d2!2sCEI%20Centro%20de%20Estudios%20Innovaci%C3%B3n.%20Cursos%20y%20masters%20de%20dise%C3%B1o%2C%20interiores%2C%20web%2C%20videojuegos%2C%20cloud%2C%20data%20y%20marketing%20digital!5e0!3m2!1ses!2ses!4v1762888965800!5m2!1ses!2ses" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact__form flex-column">
+                    <div class="contact__form--header flex-column">
+                        <h2 class="text--lg">Contact with us</h2>
+                        <p>You can also check other ways to contact us on the contact page.</p>
+                    </div>
+                    <form action="#" method="post">
+                        <div class="flex-row">
+                            <label for="name"></label>
+                            <input id="name" name="name" type="text" placeholder="Name">
+                            <label for="surname"></label>
+                            <input id="surname" name="surname" type="text" placeholder="Surname">
+                        </div>
+                        <label for="email"></label>
+                        <input id="email" name="email" type="email" placeholder="E-mail">
+                        <label for="services"></label>
+                        <select name="services" id="services">
+                            <option value="uxui">Select the service</option>
+                            <option value="webdesign">Web Design</option>
+                        </select>
+                        <div class="contact__policy">
+                            <label for="privacy">I have read and accept the <b>privacy policy</b></label>
+                            <input id="privacy" name="privacy" type="checkbox">
+                        </div>
+                        <input type="submit" value="Send">
+                        
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="prices section" id="prices">
+            <div class="prices__cards container flex-row">
+                <div class="price__card price__card--light flex-column">
+                    <div class="price__heading flex-column">
+                        <h3 class="text--md">Basic Plan</h3>
+                        <span class="text--xl">99€</span>
+                        <a href="" class="btn btn--dark">Try it for free<i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                    <div class="price__content flex-column">
+                        <span><i class="ri-checkbox-circle-line"></i>UX/UI</span>
+                        <span><i class="ri-checkbox-circle-line"></i>WordPress</span>
+                        <span><i class="ri-checkbox-circle-line"></i>Customized panel</span>
+                        <span><i class="ri-close-circle-line"></i>Neuhost access</span>
+                        <span><i class="ri-close-circle-line"></i>Neuron Studio</span>
+                        <span><i class="ri-close-circle-line"></i>Web development</span>
+                        <span><i class="ri-close-circle-line"></i>App development</span>
+                        <span><i class="ri-close-circle-line"></i>SEO/SEM</span>
+                    </div>
+                </div>
+                <div class="price__card price__card--dark flex-column">
+                    <div class="price__heading flex-column">
+                        <h3 class="text--md">Pro Plan</h3>
+                        <span class="text--xl">129€</span>
+                        <a href="" class="btn btn--light">Try it for free<i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                    <div class="price__content flex-column">
+                        <span><i class="ri-checkbox-circle-line"></i>UX/UI</span>
+                        <span><i class="ri-checkbox-circle-line"></i>WordPress</span>
+                        <span><i class="ri-checkbox-circle-line"></i>Customized panel</span>
+                        <span><i class="ri-checkbox-circle-line"></i>Neuhost access</span>
+                        <span><i class="ri-checkbox-circle-line"></i>Neuron Studio</span>
+                        <span><i class="ri-close-circle-line"></i>Web development</span>
+                        <span><i class="ri-close-circle-line"></i>App development</span>
+                        <span><i class="ri-close-circle-line"></i>SEO/SEM</span>
+                    </div>         
+                </div>
+                <div class="price__card price__card--light flex-column">
+                    <div class="price__heading flex-column">
+                        <h3 class="text--md">Xtreme Plan</h3>
+                        <span class="text--xl">199€</span>
+                        <a href="#" class="btn btn--dark">Try it for free<i class="ri-arrow-right-up-line"></i></a>
+                    </div>
+                    <div class="price__content flex-column">
+                        <span><i class="ri-checkbox-circle-line"></i>UX/UI</span>
+                        <span><i class="ri-checkbox-circle-line"></i>WordPress</span>
+                        <span><i class="ri-checkbox-circle-line"></i>Customized panel</span>
+                        <span><i class="ri-checkbox-circle-line"></i>Neuhost access</span>
+                        <span><i class="ri-checkbox-circle-line"></i>Neuron Studio</span>
+                        <span><i class="ri-checkbox-circle-line"></i>Web development</span>
+                        <span><i class="ri-checkbox-circle-line"></i>App development</span>
+                        <span><i class="ri-checkbox-circle-line"></i>SEO/SEM</span>
+                    </div>       
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+    <footer class="footer">
+        <div class="footer__block flex-column">
+            <div class="footer__media flex-row">
+                <img src="media/logo-light.svg" alt="logo-light">
+                <ul class="footer__icons flex-row">
+                    <li><i class="ri-instagram-line"></i></li>
+                    <li><i class="ri-twitter-x-line"></i></li>
+                    <li><i class="ri-pinterest-line"></i></li>
+                    <li><i class="ri-linkedin-box-line"></i></li>
+                </ul>
+            </div>
+            <div class="footer__links flex-row">
+                <a class="link" href="#">Legal notice</a>
+                <a class="link" href="#">Privacy Policy</a>
+                <a class="link" href="#">Cookies Policy</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

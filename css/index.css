@@ -424,6 +424,13 @@ header {
 
             & form{
 
+                & .contact__form--section {
+                    input, select {
+                        width: 100%;
+                    }
+                    
+                }
+
                 & input[type="submit"] {
                     background-color: #003f8d;
                 }

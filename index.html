@@ -182,24 +182,32 @@
                     </div>
                     <form action="#" method="post">
                         <div class="flex-row">
-                            <label for="name">Your name</label>
-                            <input id="name" name="name" type="text" placeholder="Name">
-                            <label for="surname">Your surname</label>
-                            <input id="surname" name="surname" type="text" placeholder="Surname">
+                            <div class="contact__form--section">
+                                <label for="name">Your name</label>
+                                <input id="name" name="name" type="text" placeholder="Name" required>
+                            </div>
+                            <div class="contact__form--section">
+                                <label for="surname">Your surname</label>
+                                <input id="surname" name="surname" type="text" placeholder="Surname" required>
+                            </div>
                         </div>
-                        <label for="email">Your email</label>
-                        <input id="email" name="email" type="email" placeholder="E-mail">
-                        <label for="services">Services</label>
-                        <select name="services" id="services">
-                            <option value="uxui">Select the service</option>
-                            <option value="webdesign">Web Design</option>
-                        </select>
+                        <div class="contact__form--section">
+                            <label for="email">Your email</label>
+                            <input id="email" name="email" type="email" placeholder="E-mail" required>
+                        </div>
+                        <div class="contact__form--section">
+                            <label for="services">Services</label>
+                            <select name="services" id="services">
+                                <option value="" disabled selected>Select the service</option>
+                                <option value="uxui">UX/UI</option>
+                                <option value="webdesign">Web Design</option>
+                            </select>
+                        </div>
                         <div class="contact__policy">
+                            <input id="privacy" name="privacy" type="checkbox" required>
                             <label for="privacy">I have read and accept the <b>privacy policy</b></label>
-                            <input id="privacy" name="privacy" type="checkbox">
                         </div>
                         <input type="submit" value="Send">
-                        
                     </form>
                 </div>
             </div>

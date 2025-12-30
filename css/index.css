@@ -424,6 +424,10 @@ header {
 
             & form{
 
+                & input[type="submit"] {
+                    background-color: #003f8d;
+                }
+
                 display: flex;
                 flex-direction: column;
                 gap: var(--s-sm);
